@@ -1,0 +1,19 @@
+[
+  {
+    "file": "main.c",
+    "arguments": [
+      "gcc",
+      "main.c",
+      "-o",
+      "main",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I/opt/homebrew/include/SDL2",
+      "-D_THREAD_SAFE"
+    ],
+    "directory": "/Users/rohitnikam/Developer/embedded-projects/chip8",
+    "output": "chip8"
+  }
+]
